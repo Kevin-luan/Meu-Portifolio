@@ -1,10 +1,43 @@
 
 
-.cabecalio{
-    background-color: rgb(71, 87, 238);
+
+
+.cabecalio ul {
+    display: flex;
+    list-style-type: none;
+    gap: 200px;
+    
+
+}
+header button{
+   background-color:rgba(3, 45, 119, 0.781);
+   border-radius: 5px;
+   height: 20px;
+    
+
 }
 
-.elemento{
+header p{
+ 
+    font-size: 5px;
+    color: white;
+     
+ 
+ }
+ header{
+    background-color: rgb(71, 87, 238);
+    position: relative;
+    bottom: 15px;
+   
+ }
+ 
+
+
+
+
+
+
+.elemento {
     width: 300px;
     height: 200px;
     background-color: rgb(71, 87, 238);
@@ -12,32 +45,40 @@
     position: relative;
     left: 320px;
     top: 70px;
-    
-     
+    box-shadow: -3px -3px 3px rgba(3, 45, 119, 0.781);
+
+
 }
 
+.elemento button {
+    border-radius: 5px;
+    background-color: rgb(3, 46, 119);
+    position: relative;
+    left: 20px;
+    top: 75px;
+    box-shadow: -3px -3px 3px rgba(3, 45, 119, 0.781);
+}
 
-.elemento1 h4{
+.elemento1 h4 {
     color: white;
-    position: absolute;
-    
-    top: 50px; left: 10px;
 
-    
-    
+
+
 }
-.elemento2 img{
 
-    border-radius: 30px;
+.elemento2 img {
+
+    border-radius: 10px;
     width: 100px;
     height: 150px;
-    box-shadow:  1px 5px  rgba(3, 45, 119, 0.781) ;
+    box-shadow: -3px -3px 3px rgba(3, 45, 119, 0.781);
     position: absolute;
-     top: 25px; left: 180px;
+    top: 25px;
+    left: 180px;
 
 }
 
 
-body{
-    background-color: rgba(61, 51, 51, 0.788);
+body {
+    background-color: rgba(3, 45, 119, 0.781);
 }
