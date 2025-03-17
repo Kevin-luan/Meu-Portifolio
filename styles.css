@@ -1,0 +1,43 @@
+
+
+.cabecalio{
+    background-color: rgb(71, 87, 238);
+}
+
+.elemento{
+    width: 300px;
+    height: 200px;
+    background-color: rgb(71, 87, 238);
+    border-radius: 10px;
+    position: relative;
+    left: 320px;
+    top: 70px;
+    
+     
+}
+
+
+.elemento1 h4{
+    color: white;
+    position: absolute;
+    
+    top: 50px; left: 10px;
+
+    
+    
+}
+.elemento2 img{
+
+    border-radius: 30px;
+    width: 100px;
+    height: 150px;
+    box-shadow:  1px 5px  rgba(3, 45, 119, 0.781) ;
+    position: absolute;
+     top: 25px; left: 180px;
+
+}
+
+
+body{
+    background-color: rgba(61, 51, 51, 0.788);
+}
